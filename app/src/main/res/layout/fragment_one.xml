@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".oneFragment"
+    android:orientation="vertical"
+    android:background="@color/white"
+    >
+
+   <Button
+       android:layout_width="350dp"
+       android:layout_height="wrap_content"
+       android:text="شركة سكر "
+       android:background="@drawable/edit_shape"
+       android:textColor="@color/white"
+       android:textSize="30sp"
+       android:id="@+id/comp1"
+       android:layout_marginStart="10dp"
+       android:layout_marginTop="150dp"
+       />
+   <Button
+       android:layout_width="350dp"
+       android:layout_height="wrap_content"
+       android:text="شركةعصائر"
+       android:background="@drawable/edit_shape"
+       android:textColor="@color/white"
+       android:textSize="30sp"
+       android:id="@+id/comp2"
+       android:layout_marginStart="10dp"
+
+       android:layout_marginTop="25dp"
+
+       />
+
+   <Button
+       android:layout_width="350dp"
+       android:layout_height="wrap_content"
+       android:text="شركة صلصة"
+       android:background="@drawable/edit_shape"
+       android:textColor="@color/white"
+       android:textSize="30sp"
+       android:id="@+id/comp3"
+
+       android:layout_marginTop="25dp"
+       android:layout_marginStart="10dp"
+       />
+
+</LinearLayout>

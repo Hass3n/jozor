@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".secondFragment"
+    android:orientation="vertical"
+    android:background="@color/white"
+    >
+
+
+        <Button
+            android:layout_width="350dp"
+            android:layout_height="wrap_content"
+            android:text="تاجر قصب "
+            android:background="@drawable/edit_shape"
+            android:textColor="@color/white"
+            android:textSize="30sp"
+            android:id="@+id/tag1"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="150dp"
+            />
+        <Button
+            android:layout_width="350dp"
+            android:layout_height="wrap_content"
+            android:text="تاجر فاكهة"
+            android:background="@drawable/edit_shape"
+            android:textColor="@color/white"
+            android:textSize="30sp"
+            android:id="@+id/tag2"
+            android:layout_marginStart="10dp"
+
+            android:layout_marginTop="25dp"
+
+            />
+
+        <Button
+            android:layout_width="350dp"
+            android:layout_height="wrap_content"
+            android:text="تاجر حبوب"
+            android:background="@drawable/edit_shape"
+            android:textColor="@color/white"
+            android:textSize="30sp"
+            android:id="@+id/tag3"
+
+            android:layout_marginTop="25dp"
+            android:layout_marginStart="10dp"
+            />
+
+    </LinearLayout>
+
